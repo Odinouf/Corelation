@@ -7,6 +7,8 @@ pkgs.mkShell {
       p.matplotlib
       p.requests
     ]))
+    pkgs.git
+    pkgs.gh
   ];
 
   shellHook = ''
